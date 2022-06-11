@@ -4,19 +4,19 @@ function todolist()
     var listname= document.getElementById("taskhold").value;
     var tododiv=document.getElementById("todobar");
 
-    var tododivcreation = document.createElement('div'); // ek div create krege
+    var tododivcreation = document.createElement('div'); 
 
-        var listitem = document.createElement('li');//div k andar k chije create krege
+        var listitem = document.createElement('li');
         listitem.innerHTML=listname;
 
         var delbtn=document.createElement('i');
-        delbtn.classList.add('fa'); //class add ki
+        delbtn.classList.add('fa'); 
         delbtn.classList.add('fa-trash');
     
-    tododivcreation.appendChild(listitem); //dono chijo ko ab apan ne div k andar dal diya append krke
+    tododivcreation.appendChild(listitem); 
     tododivcreation.appendChild(delbtn);
 
-    tododiv.appendChild(tododivcreation);//ab ye pure div ko apan ne jo html me empty div banaya h usme dal dege
+    tododiv.appendChild(tododivcreation);
 }
 
 //code for deletion
