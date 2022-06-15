@@ -1,36 +1,44 @@
-body{
-    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-
-
-
-
+body {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)
 }
-.col-md-5{
-    margin-top: 150px !important;
+
+.col-md-5 {
+    margin-top: 80px !important;
     background: whitesmoke;
 }
 
-h1{
+.col-md-7 {
+    margin-top: 50px !important;
+}
+h2{
+    font-weight: bolder !important;
+text-decoration: underline;
+}
+h1 {
     text-align: center !important;
     font-weight: bolder !important;
     margin: 20px !important;
 }
-button{
+
+button {
     margin-left: 10px !important;
 }
-button:hover{
+
+button:hover {
     background-color: white !important;
     outline: green solid 2px;
     color: rgb(36, 31, 56) !important;
 }
-input{
+
+input {
     display: inline !important;
     width: 81% !important;
-    border:solid black 3px !important;
+    border: solid black 3px !important;
 
 }
-li{
-    
+
+li {
+
     display: inline;
     width: 70%;
     list-style-type: none;
@@ -38,9 +46,11 @@ li{
     margin: 10px;
     text-align: center;
 }
-i{
+
+i {
     color: rgb(202, 33, 33);
 }
-i:hover{
-cursor: pointer;
+
+i:hover {
+    cursor: pointer;
 }
