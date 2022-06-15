@@ -43,8 +43,10 @@ li {
     width: 70%;
     list-style-type: none;
     font-size: 20px;
-    margin: 10px;
+    margin: 10px !important;
     text-align: center;
+    padding-top: 35px !important;
+    padding-bottom: 50px !important;
 }
 
 i {
@@ -54,3 +56,13 @@ i {
 i:hover {
     cursor: pointer;
 }
+.impdiv{
+margin-top: 10px !important;
+}
+
+@media screen and (max-width: 600px) {
+        
+input{
+    width: 70% !important;
+}
+  }
